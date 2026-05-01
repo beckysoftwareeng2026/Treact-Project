@@ -16,6 +16,7 @@
   font-family: "Inter", sans-serif;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -154,32 +155,16 @@ FOOTER
 
 footer {
   background-color: #6415ff;
+  margin-bottom: -32px;
+  position: relative;
+
 }
 
-.footer__logo {
-  display: flex;
+.footer__column { 
+    display: flex;
+    flex-direction: column;
 }
 
-.footer__logo--img {
-  width: 160px;
-  filter: grayscale(1) invert(1);
-}
 
-.footer__link,
-.footer__copyright {
-  color: #fff;
-}
 
-.footer__list {
-  margin: 20px 0 24px 0;
-}
-
-.footer__link {
-  padding: 0 8px;
-}
-
-/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 768px) {
-  .header__description {
    
-
